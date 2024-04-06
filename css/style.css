@@ -343,22 +343,10 @@ main {
     margin: 0 20px; /* Adjust spacing between navigation items */
   }
 
-  /* Skip link */
-  .skip-link {
-    display: none; /* Hide the skip link on desktop */
-  }
-
-  /* Pet Profile */
-  .pet-profile {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Adjust layout for desktop */
-  }
-
-  .pet-description {
-    margin-left: 0; /* Reset margin */
-  }
-
   /* Recipe Info */
+  li {
+    list-style-type: none;
+  }
   .recipe-info-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Adjust layout for desktop */
@@ -373,12 +361,6 @@ main {
 
   .recipe-step-container {
     display: block; /* Adjust layout for desktop */
-  }
-
-  .ingredients, .recipe-steps {
-    margin-left: 0; /* Reset margin */
-    margin-right: 0; /* Reset margin */
-    width: 100%; /* Adjust width */
   }
 
   /* Travel Destinations */
